@@ -8,6 +8,10 @@ copy CkEditor folder and import as new module
 ### Step2:
 Go to project structure in Android studio > select dependencies > select app and add it.
 
+
+<img src="https://github.com/somasekharkakarla/AndroidCkEditor5/blob/master/Screenshot1.png" width="280" height="450">
+
+
 Good Job 👏. you are done with the setup.
 
 ### How to use in code?
