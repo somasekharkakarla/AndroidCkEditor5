@@ -9,9 +9,6 @@ copy CkEditor folder and import as new module
 Go to project structure in Android studio > select dependencies > select app and add it.
 
 
-<img src="https://github.com/somasekharkakarla/AndroidCkEditor5/blob/master/Screenshot1.png" width="280" height="450">
-
-
 Good Job 👏. you are done with the setup.
 
 ### How to use in code?
@@ -34,7 +31,10 @@ use method ```sendDataToCKEditor5``` it takes two parameters one is string for s
 
 At class level implement  ```CKEditorDataInterface``` it provides ```getDataFromEditor``` method which returns data as string
 
-### Well Done. Enjoy the CKEditor
+<img src="https://github.com/somasekharkakarla/AndroidCkEditor5/blob/master/Screenshot1.png" width="280" height="450">
+
+
+### Well Done 🙌. Enjoy the CKEditor
 
 ### Can Customize? yes, you can
 
