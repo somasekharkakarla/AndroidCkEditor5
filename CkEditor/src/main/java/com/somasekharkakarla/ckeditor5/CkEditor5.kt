@@ -41,8 +41,8 @@ class CkEditor5(context: Context?, attrs: AttributeSet?) :
     }
 
 
-    override fun sendDataClass(data: String) {
-        CKEditorDataInterface!!.sendDataClass(data)
+    override fun getDataFromEditor(data: String) {
+        CKEditorDataInterface!!.getDataFromEditor(data)
     }
 
 

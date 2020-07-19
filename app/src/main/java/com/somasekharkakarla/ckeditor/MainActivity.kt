@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(),CKEditorDataInterface {
         activityMainBinding.ckeditot.sendDataToCKEditor5("<p>asdfasdfasdf</p>",false);
     }
 
-    override fun sendDataClass(data: String) {
+    override fun getDataFromEditor(data: String) {
         Log.d("TAG", "sendDataClass:InProject "+data)
     }
 }

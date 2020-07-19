@@ -10,7 +10,7 @@ class JSBridge(ckEditor5: CkEditor5) {
     @JavascriptInterface
     fun showMessageInNative(message:String){
         dataCkEditor=message;
-        CKEditorDataInterface!!.sendDataClass(message)
+        CKEditorDataInterface!!.getDataFromEditor(message)
     }
 
 
